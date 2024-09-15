@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const config = {
   rtmp: {
-    port: 80,
+    port: 443,
     chunk_size: 60000,
     gop_cache: true,
     ping: 30,
