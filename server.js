@@ -3,17 +3,17 @@ const fs = require("fs");
 
 const config = {
   rtmp: {
-    port: 443,
+    port: 1935,
     chunk_size: 60000,
     gop_cache: true,
     ping: 30,
     ping_timeout: 60,
   },
   http: {
-    port: 8000,
+    port: 80,
     allow_origin: "https://ninecw-radio-test1.onrender.com",
     ssl: {
-      port: 8443,
+      port: 443,
       key: "/path/to/privkey.pem",
       cert: "/path/to/fullchain.pem",
     },
